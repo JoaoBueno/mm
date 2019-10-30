@@ -1,0 +1,157 @@
+
+
+
+
+
+/*################## TOPO SITE / SOBRE NAVBAR ####################*/
+.sobre-e-contato a{
+  color: #D9F0F3;
+  border-bottom: 3px solid transparent; 
+}
+
+.sobre-e-contato a:hover{
+  color: #FFC107;
+  border-bottom: 3px solid #FFC107;
+  padding-bottom: 0;
+}
+
+.topo{
+  background: #0070b8;
+  background-image: linear-gradient(to bottom, #004599, rgb(51, 146, 255));
+  height: 133px;   
+}
+
+
+
+
+
+
+/*################## NAVBAR ####################*/
+.barnav{
+  font-size: 15px;
+  background: #0070b8;
+  height: 30px;
+}
+
+.barnav a{
+  height: 30px;
+  color: #fff;
+}
+
+.categorias .link{
+  color: #fff; 
+  background: #0070b8;  
+  border-bottom: 3px solid transparent;
+}
+
+.categorias .link:hover{
+  color: #FFC107;
+  background: #0c7cc4;
+  border-bottom: 3px solid #FFC107;   
+}
+
+.subcategorias{
+  background: #0070b8;
+}
+
+.subcategorias a:hover{
+  color: #FFC107; 
+  background: #0c7cc4;  
+}
+
+
+
+
+@media (min-width: 992px) {
+  .animate {
+    animation-duration: 0.8s;
+    -webkit-animation-duration: 0.8s;
+    animation-fill-mode: both;
+    -webkit-animation-fill-mode: both;
+  }
+}
+
+@keyframes slideIn {
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+    100% {
+      transform:translateY(0rem);
+      opacity: 1;
+    }
+    0% {
+      transform: translateY(1rem);
+      opacity: 0;
+    }
+  }
+  
+  @-webkit-keyframes slideIn {
+    0% {
+      -webkit-transform: transform;
+      -webkit-opacity: 0;
+    }
+    100% {
+      -webkit-transform: translateY(0);
+      -webkit-opacity: 1;
+    }
+    0% {
+      -webkit-transform: translateY(1rem);
+      -webkit-opacity: 0;
+    }
+  }
+  
+  .slideIn {
+    -webkit-animation-name: slideIn;
+    animation-name: slideIn;
+}
+
+
+
+
+
+
+
+/*################## CARDS SOB NAVBAR ####################*/
+.card-topo:hover{  
+  background: #FFC107;
+  opacity: 0.8;
+}
+
+.texto-img-menu{
+  font-size: 17px;
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+
+
+
+
+/*################## CARDS PRODUTOS ####################*/
+.link-fabricante{
+  color: #9EA4A9;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.link-fabricante:hover{
+  color: #0070b8;
+}
+
+
+
+
+
+
+
+/*################## RODAPÉ ####################*/
+.rodape{
+  color: #D9F0F3;
+  background: #0070b8;
+  background-image: linear-gradient(to top, #004599, rgb(51, 146, 255));
+  height: 115px;   
+}
